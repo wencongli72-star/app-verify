@@ -14,7 +14,7 @@ public class Device {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "device_id", nullable = false, unique = true)
+    @Column(name = "device_id", nullable = false)
     private String deviceId;
 
     @Column(nullable = false)

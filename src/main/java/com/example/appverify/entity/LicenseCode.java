@@ -25,4 +25,7 @@ public class LicenseCode {
 
     @Column(nullable = false)
     private String duration; // e.g. "1H", "30M", "7D"
+
+    @Column(name = "activation_time", nullable = false)
+    private LocalDateTime activationTime;
 }

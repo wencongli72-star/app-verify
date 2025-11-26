@@ -9,4 +9,5 @@ import java.util.Optional;
 public interface LicenseCodeRepository extends JpaRepository<LicenseCode, Long> {
     Optional<LicenseCode> findByCode(String code);
     List<LicenseCode> findByActiveTrue();
+    Optional<LicenseCode> findLicenseCodeByCodeAndActiveIsTrue(String code);
 }

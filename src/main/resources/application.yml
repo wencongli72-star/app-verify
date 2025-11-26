@@ -7,7 +7,7 @@ spring:
     name: app-verify
 
   datasource:
-    url: jdbc:mysql://150.158.14.9:3306/app_verify?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://150.158.14.9:3306/app_verify?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     username: root
     password: Root@123456
     driver-class-name: com.mysql.cj.jdbc.Driver
